@@ -22,5 +22,5 @@ jobs:
 
       - name: Build and Test
         run:
-        xcrun simctl list devices # This lists the available simulators
-        xcodebuild test -project CodecovDemo.xcodeproj -scheme CodecovDemo -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' build test
+         xcrun simctl list devices
+         xcodebuild test -project CodecovDemo.xcodeproj -scheme CodecovDemo -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' build test
