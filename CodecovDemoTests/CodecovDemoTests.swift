@@ -21,7 +21,7 @@ class CodecovDemoTests: XCTestCase {
     func testNameInitialization() {
         let nameInit = Person(firstName: "Grace", lastName: "Njoroge")
         XCTAssertNotNil(nameInit)
-        XCTAssertEqual(nameInit.firstName, "Grace")
+        XCTAssertEqual(nameInit.firstName, "Grac")
         XCTAssertEqual(nameInit.lastName, "Njoroge")
         
     }
